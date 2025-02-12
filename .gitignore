@@ -1,0 +1,65 @@
+# Binaries and build files
+/target/
+/out/
+/bin/
+/project/target/
+/project/project/
+/.mvn/
+/.idea/
+/.vscode/
+*.class
+*.jar
+*.war
+*.zip
+
+# SBT specific
+/.history
+/.cache
+/.idea_modules/
+/lib_managed/
+/src_managed/
+/dist/
+/logs/
+/.ensime_cache
+/.ammonite
+
+# Scala & Spark specific
+*.log
+*.hiveversion
+*.crc
+.metastore_db/
+derby.log
+*.pid
+spark-warehouse/
+__MACOSX/
+.ipynb_checkpoints/
+
+# Dependency directories
+/.ivy2/
+/.m2/
+/.coursier/
+/lib/
+
+# IntelliJ
+.idea/
+/*.iml
+*.iws
+
+# VSCode
+.vscode/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+*.env.*
+
+# Temporary files
+*.swp
+*~
+*.tmp
+*.bak
+*.orig
+*.old
